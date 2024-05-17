@@ -52,10 +52,10 @@ graficar_campo <- function(campo) {
 #------------------------------------------------------------------------------
 #------------------------------------------------------------------------------
 # Aqui comienza el programa
-setwd("~/buckets/b1/") # Establezco el Working Directory
+setwd("C:/Users/arnic/OneDrive/Documentos/MCD/03-DataMining") # Establezco el Working Directory
 
 # cargo el dataset donde voy a entrenar
-dataset <- fread("~/datasets/dataset_pequeno.csv")
+dataset <- fread("./datasets/dataset_pequeno.csv")
 
 dir.create("./exp/", showWarnings = FALSE)
 dir.create("./exp/DR3610/", showWarnings = FALSE)
