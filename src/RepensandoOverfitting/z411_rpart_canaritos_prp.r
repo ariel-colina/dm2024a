@@ -6,9 +6,9 @@ require("data.table")
 require("rpart")
 require("rpart.plot")
 
-setwd("C:/Users/arnic/OneDrive/Documentos/MCD/03-DataMining" )  # establezco la carpeta donde voy a trabajar
+setwd("~/buckets/b1/" )  # establezco la carpeta donde voy a trabajar
 # cargo el dataset
-dataset <- fread( "./datasets/dataset_pequeno.csv")
+dataset <- fread( "~/datasets/dataset_pequeno.csv")
 
 dir.create("./exp/", showWarnings = FALSE)
 dir.create("./exp/CN4110/", showWarnings = FALSE)
